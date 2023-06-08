@@ -30,7 +30,9 @@ yarn add @turinghealth/webapp-design-bs5-dev
 In your project's CSS file (e.g., `styles.scss`), import the provided styles:
 
 ```scss
-@import '~@turinghealth/webapp-design-bs5-dev/scss/style.scss';
+"styles": [
+  "node_modules/@turinghealth/webapp-design-bs5-dev/scss/style.scss",
+]
 ```
 
 ### JavaScript
@@ -38,7 +40,9 @@ In your project's CSS file (e.g., `styles.scss`), import the provided styles:
 In your project's JavaScript file (e.g., `app.js`), import Bootstrap:
 
 ```javascript
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
 ```
 
 ### Assets
@@ -63,28 +67,12 @@ Replace `"./custom_assets"` with the desired output directory for the images.
 Here's an example of how to use `@turinghealth/webapp-design-bs5-dev`:
 
 ```javascript
-// Import the CSS file for the web app design
-import '@turinghealth/webapp-design-bs5-dev/scss/style.scss';
-
-// Import Bootstrap JavaScript
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-// Use the pre-designed components and styles in your web application
 // Example:
-import { Button, Card } from '@turinghealth/webapp-design-bs5-dev';
 
 // Render a button
-const myButton = <Button variant="primary">Click me</Button>;
 
 // Render a card
-const myCard = (
-  <Card>
-    <Card.Header>Card Title</Card.Header>
-    <Card.Body>
-      <p>Card content goes here...</p>
-    </Card.Body>
-  </Card>
-);
+
 ```
 
 For more detailed usage examples and API documentation, please refer to the [Documentation](https://link-to-documentation).

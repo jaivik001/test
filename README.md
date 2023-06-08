@@ -25,9 +25,9 @@ yarn add @turinghealth/webapp-design-bs5-dev
 
 ## Usage
 
-### CSS and Styles
+Add the following configuration to your project's angular.json or webpack.config.js file:
 
-In your project's CSS file (e.g., `styles.scss`), import the provided styles:
+### CSS and Styles
 
 ```scss
 "styles": [
@@ -36,8 +36,6 @@ In your project's CSS file (e.g., `styles.scss`), import the provided styles:
 ```
 
 ### JavaScript
-
-In your project's JavaScript file (e.g., `app.js`), import Bootstrap:
 
 ```javascript
 "scripts": [
@@ -68,7 +66,7 @@ Here's an example of how to use `@turinghealth/webapp-design-bs5-dev`:
 
 ```javascript
 // Example:
-
+   <img class="img-fluid th-avatar-38" src="./custom_assets/avatar-lg.png" alt="Avatar Image11">
 // Render a button
 
 // Render a card

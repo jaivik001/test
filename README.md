@@ -67,9 +67,25 @@ Here's an example of how to use `@turinghealth/webapp-design-bs5-dev`:
 ```javascript
 // Example:
    <img class="img-fluid th-avatar-38" src="./custom_assets/avatar-lg.png" alt="Avatar Image11">
-// Render a button
 
-// Render a card
+// Render a button
+    <div class="mb-4">
+      <p class="mb-4">Use [btn th-btn-primary] classes</p>
+      <a class="btn th-btn-primary" href="javascript:;" role="button">Text</a>
+    </div>
+
+// Render a checkbox
+    <div id="checkbox">
+      <h1 class="text-primary my-5">Checkbox</h1>
+      <div class="mb-4">
+          <div class="form-check th-form-check">
+              <input class="form-check-input th-form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label ms-3 th-form-check-label" for="flexCheckDefault">
+                  Default checkbox
+              </label>
+          </div>
+      </div>
+    </div>
 
 ```
 
